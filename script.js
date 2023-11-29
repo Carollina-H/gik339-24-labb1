@@ -11,7 +11,7 @@ console.log(divElement);
 
 // Uppgift 5
 function handleInput(e) {
-    console.log(handleInput);
+    console.log(textFields);
     if (e.target.name === 'content') { 
       const contentText = e.target.value;
       divElement.innerHTML = contentText; 
