@@ -19,8 +19,8 @@ function handleInput(e) {
 }
 
 // Uppgift 6
-// Checkboxen
 
+// Checkboxen
 checkBox.addEventListener('change', function() {
   console.log("Colored divElement!")
   for (let textfield of textFields) {
